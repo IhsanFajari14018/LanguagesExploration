@@ -27,7 +27,7 @@ class PublicClass {
      * @param privateInt nilai privateInt yang baru.
      */
     public void setPrivateInt(int privateInt) {
-    
+         this.privateInt = privateInt;
         // 8. Cara mengisi atribut dari dalam kelas itu sendiri
         this.privateInt = privateInt;
     }
