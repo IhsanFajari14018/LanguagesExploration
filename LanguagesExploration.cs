@@ -1,7 +1,7 @@
 // 
 // 1. Cara mendifinisikan kelas
 class PublicClass {
-    
+   // 
     // 2. Cara mendefinisikan atribut privat bertipe int
     /* Atribut untuk menyimpan data integer*/
     private int privateInt;
