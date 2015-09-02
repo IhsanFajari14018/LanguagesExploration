@@ -1,3 +1,4 @@
+// 
 // 1. Cara mendifinisikan kelas
 class PublicClass {
     
