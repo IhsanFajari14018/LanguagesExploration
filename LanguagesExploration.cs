@@ -49,7 +49,7 @@ class PublicClass {
 class PublicSubClass extends PublicClass {
     
     // 12. Cara melakukan override method
-    public int getPrivateInt() {
+    public override int getPrivateInt() {
     
     // 13. Cara mengakses method pada superclass
     return 2 * super.getPrivateInt();
@@ -71,7 +71,7 @@ public class LanguagesExploration {
         publicClass.publicString = "World!";
         
         // 18. Cara mendapatkan isi atribut publik dari luar kelas
-        System.out.println("[World!] publicClass.publicString = " + publicClass.publicString);
+        Console.WriteLine("[World!] publicClass.publicString = " + publicClass.publicString);
         
         // 19. Cara mengisi nilai atribut statik
         PublicClass.staticInt = 10;
