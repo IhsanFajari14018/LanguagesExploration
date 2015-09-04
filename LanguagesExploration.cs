@@ -57,7 +57,7 @@ class PublicSubClass extends PublicClass {
 }
 
 public class LanguagesExploration {
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         // 14. Cara menginstansiasi kelas baru
         PublicClass publicClass = new PublicClass();
         
@@ -88,6 +88,6 @@ public class LanguagesExploration {
         publicSubClass.setPrivateInt(13);
         
         // 23. Memastikan method overriding bekerja
-        System.out.println("[26] publicSubClass.getPrivateInt() = " + publicSubClass.getPrivateInt());
+        Console.WriteLine("[26] publicSubClass.getPrivateInt() = {0}", publicSubClass.getPrivateInt());
     }
 }
