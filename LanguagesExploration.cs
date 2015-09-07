@@ -1,3 +1,4 @@
+using System;
 // 
 // 1. Cara mendifinisikan kelas
 class PublicClass {
