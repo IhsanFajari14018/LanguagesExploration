@@ -2,9 +2,8 @@ using System;
 // 
 // 1. Cara mendifinisikan kelas
 class PublicClass {
-   // 
     // 2. Cara mendefinisikan atribut privat bertipe int
-    /* Atribut untuk menyimpan data integer*/
+    // Atribut untuk menyimpan data integer*/
     private int privateInt;
     
     // 3. Cara mendifinisikan atribut public bertipe string, dan mengisi dengan nilai awal
@@ -14,7 +13,7 @@ class PublicClass {
     public static int staticInt;
     
     // 5. Cara mendefinisikan konstanta
-    public static final double PI = 3.14;
+    public const double PI = 3.14;
     
     // 6. Cara mendefinisikan konstruktor
     public PublicClass() {
@@ -23,10 +22,12 @@ class PublicClass {
     
     // 7a. Cara mendefinisikan method dengan parameter tanpa return value
     // 7b. Cara menuliskan dokumentasi untuk method 7a
-    /**
-     * Mengubah nilai atribut privateInt
-     * @param privateInt nilai privateInt yang baru.
-     */
+     ///<summary>
+   ///komentar yang muncul di kolom deskripsi
+   ///</summary>
+   ///<remarks>
+   ///penjelasan untuk method setPrivateInt di bagian remark
+   ///</remarks>
     public void setPrivateInt(int privateInt) {
          this.privateInt = privateInt;
         // 8. Cara mengisi atribut dari dalam kelas itu sendiri
@@ -35,10 +36,14 @@ class PublicClass {
     
     // 9a. Cara mendefinisikan method dengan return value
     // 9b. Cara menuliskan dokumentasi untuk method 9a
-    /**
-     * Mendapatkan nilai dari atribut privateInt
-     * @return nilai dari privateInt
-     */
+    /*Mendapatkan nilai dari atribut privateInt
+    @return nilai dari privateInt*/
+    ///<summary>
+   ///komentar yang muncul di kolom deskripsi
+   ///</summary>
+   ///<remarks>
+   ///penjelasan untuk method getPrivateInt di bagian remark
+   ///</remarks>
     public int getPrivateInt() {
         
         // 10. Cara mengembalikan nilai
